@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 200px;
+      font-family: Arial, sans-serif;
+    }
+    input[type="number"] {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      margin-top: 8px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h3>Auto Scroll</h3>
+  <!-- Input field for the time interval in milliseconds -->
+  <input type="number" id="scrollTime" placeholder="Time in ms">
+  <!-- Button to start auto-scrolling -->
+  <button id="startScroll">Start Auto Scroll</button>
+  <!-- Button to stop auto-scrolling -->
+  <button id="stopScroll">Stop Auto Scroll</button>
+  <!-- Link to the JavaScript file -->
+  <script src="popup.js"></script>
+</body>
+</html>
